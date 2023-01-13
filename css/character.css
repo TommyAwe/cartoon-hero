@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+	font-size: 20px;
+	background-color:lightgrey
+}
+
+header{
+	background-color: #98BB0A;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+h1, h2{
+	font-family: 'Comic Neue', cursive;
+}
+
+header h1{
+	color: white;
+	font-size: 46px;
+}
+
+header img{
+	border-radius: 150px;
+	width: 300px;
+    border: 20px solid black;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0px 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+h2{
+	font-size: 37px;
+	color:currentColor;
+	margin:40px 0 10px;
+}
+
+a{
+	color: darkgreen;
+}
+a:hover{
+	color: olivedrab;
+}
+
+p.caption{
+	font-weight: bold;
+	font-style: italic;
+	margin-top:0;
+}
+
+footer{
+	background-color:#98BB0A;
+	font-size: 22.5px;
+	text-align:center;
+	padding:27px;
+}
+
+footer a:hover{
+	opacity:0.3;
+	background-color: white;
+}
+
+footer p{
+	margin:0;
+}
